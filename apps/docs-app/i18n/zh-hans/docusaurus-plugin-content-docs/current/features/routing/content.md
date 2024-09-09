@@ -298,7 +298,7 @@ export default class BlogPostComponent {
 
 在路由配置中通过为 `RouteMeta` 对象的 `meta` 属性设置一个 `postMetaResolver` 函数，可以为一个路由解析 meta 标签。
 
-下面时一个使用 `postMetaResolver` 函数为一个博客文字获取 meta 标签的例子，它返回了一组 meta 标签。
+下面是一个使用 `postMetaResolver` 函数为一个博客文字获取 meta 标签的例子，它返回了一组 meta 标签。
 
 ```ts
 export const postMetaResolver: ResolveFn<MetaTag[]> = (route) => {
