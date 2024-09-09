@@ -4,7 +4,7 @@ title: 数据获取
 
 # 概述
 
-数据获取是 Analog 基于 Angular 概念早上构建，类似使用 `HttpClient` 来发起 API 请求。
+数据获取是 Analog 基于 Angular 概念之上构建的，类似使用 `HttpClient` 来发起 API 请求。
 
 ## 使用 HttpClient
 
