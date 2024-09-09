@@ -8,7 +8,7 @@ title: 数据获取
 
 ## 使用 HttpClient
 
-推荐使用 `HttpClient` 来调用内部或者外部的 API。任何使用 `HttpClient` 并且以 `/` 打头的请求上下文由 `provideServerContext` 函数提供。
+推荐使用 `HttpClient` 来调用内部或者外部的 API。任何使用 `HttpClient` 并且以 `/` 开头的请求上下文由 `provideServerContext` 函数提供。
 
 ## 服务端请求上下文
 
